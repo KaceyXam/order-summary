@@ -30,11 +30,12 @@ select {
 
 body {
   background-image: url("/pattern-background-desktop.b5d719d3.svg");
-  background-repeat: none;
-  background-size: cover;
+  background-repeat: repeat-x;
+  background-size: 100% 50vh;
   min-height: 100vh;
   display: grid;
   place-content: center;
+  background-color: hsl(225deg, 100%, 98%);
 }
 
 p {
@@ -48,6 +49,7 @@ p {
   border-radius: 1em;
   overflow: hidden;
   background-color: white;
+  box-shadow: 0 5px 45px 0px hsl(224deg, 23%, 55%);
 }
 .main-card .summary {
   display: flex;
